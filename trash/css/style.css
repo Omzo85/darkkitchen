@@ -1,0 +1,29 @@
+/* Ajout des styles pour le bouton profil */
+.profile-icon {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.profile-icon:hover {
+    color: #000;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Mise à jour des styles existants pour le panier */
+.cart-icon {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.cart-icon:hover {
+    color: #000;
+}

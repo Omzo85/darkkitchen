@@ -1,0 +1,42 @@
+# Environnement
+.env
+.env.local
+.env.*.local
+
+# Dépendances
+/node_modules
+/.pnp
+.pnp.js
+
+# Production
+/build
+/dist
+
+# Fichiers de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+
+# Tests
+/coverage
+
+# Cache
+.npm
+.eslintcache
